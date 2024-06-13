@@ -8,7 +8,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 1. Clone the repository:
     ```bash
     git clone https://github.com/siddharthsuhaspawar/Ansys_coding_assignment.git
-    cd Ansys_coding_assignment-main
+    cd Ansys_coding_assignment
     
     ```
 
