@@ -62,19 +62,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 1. Ensure the virtual environment is activated.
 2. Run the tests:
     ```bash
-    python -m unittest discover -s tests
-    ```
-
-## Docker
-
-1. Build the Docker image:
-    ```bash
-    docker build -t json_api .
-    ```
-
-2. Run the Docker container:
-    ```bash
-    docker run -p 5000:5000 json_api
+    python -m unittest discover -s test_api
     ```
 
 ## Assumptions
