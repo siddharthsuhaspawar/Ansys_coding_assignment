@@ -14,7 +14,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 
 2. Create and activate a virtual environment:
     ```bash
-    python3 -m venv venv
+    python -m venv venv
     source venv/bin/activate
     ```
 
