@@ -8,7 +8,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 1. Clone the repository:
     ```bash
     git clone <repository-url>
-    cd json_api
+    
     ```
 
 2. Create and activate a virtual environment:
