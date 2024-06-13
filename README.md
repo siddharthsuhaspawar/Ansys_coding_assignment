@@ -16,6 +16,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
     ```bash
     python -m venv venv
     source venv/bin/activate
+    # On Windows use `venv\Scripts\activate`
     ```
 
 3. Install the dependencies:
