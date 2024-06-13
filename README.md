@@ -49,7 +49,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 - Description: Updates the existing JSON object with the given ID.
 - Example Request:
     ```bash
-    curl -X PUT -H "Content-Type: application/json" -d '{\"new_key\":\"new_value\"}' http://localhost:5000/data/1
+    curl -X PUT -H "Content-Type: application/json" -d "{\"new_key\":\"new_value\"}" http://localhost:5000/data/1
     ```
 
 ### DELETE /data/{id}
