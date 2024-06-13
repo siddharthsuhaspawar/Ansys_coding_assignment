@@ -34,7 +34,8 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 - Description: Accepts a JSON object and stores it in the database.
 - Example Request:
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"key":"value"}' http://localhost:5000/data
+   curl -u admin:password -X POST -H "Content-Type: application/json" -d "{\"key\":\"value\"}" http://127.0.0.1:5000/data
+
     ```
 
 ### GET /data/{id}
@@ -48,7 +49,7 @@ This is a simple API to store and retrieve JSON data without a predefined schema
 - Description: Updates the existing JSON object with the given ID.
 - Example Request:
     ```bash
-    curl -X PUT -H "Content-Type: application/json" -d '{"new_key":"new_value"}' http://localhost:5000/data/1
+    curl -X PUT -H "Content-Type: application/json" -d '{\"new_key\":\"new_value\"}' http://localhost:5000/data/1
     ```
 
 ### DELETE /data/{id}
